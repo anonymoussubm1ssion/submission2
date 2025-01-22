@@ -1,0 +1,41 @@
+{
+  "reentrancy": {
+    "name": "reentrancy",
+    "desc": "please note that if state changes happens after the external call then there should be reentrancy vulnerability."
+  },
+  "arithmetic": {
+    "name": "arithmetic",
+    "desc": "read the code line by line, and find out if there are \"if\" or \"require\" condition checks to prevent integer calculation overflow or underflow. Also, please consider the total supply of Ethers, which may not exceed the range."
+  },
+  "access_control": {
+    "name": "access control",
+    "desc": "please check if the contract does needs mechanisms to restrict access to functions. Don't consider onwer's secret key leakage-related reasons."
+  },
+  "unchecked_low_level_calls": {
+    "name": "unchecked low level calls",
+    "desc": "please note that using 'if()' statements can check return values. Differentiate between 'transfer' and low-level calls, 'transfer' will revert the transaction when it fails but low-level calls won't."
+  },
+  "denial_of_service": {
+    "name": "denial of service",
+    "desc": "please consider the impacted users. If the external call failure only impacts the caller himself then it isn't a vulnerability. Also, check the source of defining the times of loop, it may drain the gas if it's from public function's paraments."
+  },
+  "tx_order_dependency": {
+    "name": "transaction order dependency",
+    "desc": "please review if there is mapping structure(s) involved in the token/ether transfer mechanism in the candidate functions. It can help you find out if front-run a transaction will impact the original caller's state of his funds or token rewards. For example, front-running a regular withdrawal transaction won't decrease the original caller's tokens he should earn because it won't affect his balance in the mapping structure, but front-running the solution to a puzzle or other valuable secrets will drain the winner pool and make the original caller lost."  },
+  "block_state_dependency": {
+    "name": "block state dependency",
+    "desc": "please identify if block state variables are used for critical condition check. If it is just for variable recording, then it is not a vulnerability. Also, when miner exploits such vulnerability, normal users benefit should be impacted, otherwise it isn't such vulnerability either."
+  },
+  "bad_randomness": {
+    "name": "bad randomness",
+    "desc": "if block state variables are related but are used to timestamp and hash calculation to record/condition check, then it does not belong to such vulnerability."
+  },
+  "price_manipulation": {
+    "name": "price manipulation",
+    "desc": "first find out if there is token price calculation, then note that the vulnerability exists when token price calculation is inferred to the price of sole external oracle. Howvever, if the price is calculated locally or the price can be changed by the owner, it won't cause this vulnerability."
+  },
+  "governance_attack": {
+    "name": "governance attack",
+    "desc": "please ensure that the contract has governance features. Such vulnerability exists when the governance proposals are susceptible to vote manipulation. "
+  }
+}

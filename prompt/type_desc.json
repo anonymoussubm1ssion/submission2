@@ -1,0 +1,42 @@
+{
+  "reentrancy": {
+    "name": "reentrancy",
+    "desc": "An attack in which an external contract repeatedly calls a vulnerable function in the target contract before the initial call has completed, potentially leading to unintended behavior or financial losses. Several forms of reentrancy attacks exist, including cross-function reentrancy, cross-contract reentrancy, recursive reentrancy, and read-only reentrancy."
+  },
+  "arithmetic": {
+    "name": "arithmetic",
+    "desc": "It involve integer overflow and underflow issues, which occur when arithmetic operations exceed the fixed size of the data type, causing unintended results. And other arithmetic flows should also be considered."
+  },
+  "access_control": {
+    "name": "access control",
+    "desc": "One usually accesses a contract's functionality through its public/external functions. While insecure visibility settings give attackers straightforward ways to access a contract's private values or sensitive logic, access control bypasses are sometimes more subtle. These vulnerabilities can occur when contracts use the deprecated tx.origin to validate callers, approval not cleared, handle large authorization logic with lengthy require and make reckless use of delegatecall in proxy libraries or proxy contracts. It could be triggered by privilege escalation, cause unauthorized or hazardous operation."
+  },
+  "unchecked_low_level_calls": {
+    "name": "unchecked low level calls",
+    "desc": "Also known as or related to silent failing sends, unchecked-send. One of the deeper features of Solidity are the low level functions call(), callcode(), delegatecall() and send(). Their behavior in accounting for errors is quite different from other Solidity functions, as they will not propagate (or bubble up) and will not lead to a total reversion of the current execution. Instead, they will return a boolean value set to false, and the code will continue to run. This can surprise developers and, if the return value of such low-level calls are not checked, can lead to fail-opens and other unwanted outcomes."
+  },
+  "denial_of_service": {
+    "name": "denial of service",
+    "desc": "Including gas limit reached, unexpected throw, unexpected kill, access control breached. Denial of service is deadly in the world of Ethereum: while other types of applications can eventually recover, smart contracts can be taken offline forever by just one of these attacks. Many ways lead to denials of service, including maliciously behaving when being the recipient of a transaction, artificially increasing the gas necessary to compute a function, abusing access controls to access private components of smart contracts, taking advantage of mixups and negligence, etc. This class of attack includes many different variants."
+  },
+  "tx_order_dependency": {
+    "name": "transaction order dependency",
+    "desc": "Also known as time-of-check vs time-of-use,race condition. Since miners always order the transactions by fees, users can specify higher fees to have their transactions mined more quickly. Since the Ethereum blockchain is public, everyone can see the contents of others' pending transactions. This means if a given user is revealing the solution to a puzzle or other valuable secret, a malicious user can steal the solution and copy their transaction with higher fees to preempt the original solution. If developers of smart contracts are not careful, this situation can lead to practical and devastating front-running/back-running and sandwich attacks."
+  },
+  "block_state_dependency": {
+    "name": "block state dependency",
+    "desc": "Contracts use block states(eg. timestamp, number, blockhash) to decide a critical operation. But such variables come are from the miners. A transaction's miner has leeway in reporting the time at which the mining occurred, good smart contracts will avoid relying strongly on the time advertised."
+  },
+  "bad_randomness": {
+    "name": "bad randomness",
+    "desc": "Randomness is hard to get right in Ethereum. While Solidity offers functions and variables that can access apparently hard-to-predict values, they are generally either more public than they seem or subject to miners' influence. Because these sources of randomness are to an extent predictable, malicious users can generally replicate it and attack the function relying on its unpredictablility."
+  },
+  "price_manipulation": {
+    "name": "price manipulation",
+    "desc": "The attacker manipulates an oracle, a source of external data for smart contracts, to provide incorrect or misleading information, leading to unintended contract behavior and potential financial losses for users. Oracles often report prices, and manipulating them can be used to exploit arbitrage opportunities or manipulate market prices."
+  },
+  "governance_attack": {
+    "name": "governance attack",
+    "desc": "It is targeting the governance mechanisms of a decentralized protocol or organization, often through collusion or bribery, to gain control over decision-making and exploit the system for personal gain. For example, a flash loan attacker could lend out the governance token, vote on a proposal, and then return the loan, all within a single transaction."
+  }
+}
