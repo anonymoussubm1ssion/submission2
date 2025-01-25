@@ -1,0 +1,1228 @@
+[
+    {
+        "filename": "0x058843c1d91f611db374a1ffcbbcc61a74f613cc_unhandledException.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x06ec2d284764c510816e2433f5106fa6d7a77fb9_TOD.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            },
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "0x0727e6688c3cdc4177beb65fa6c6670830d7e4d7_TOD.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x0addedfee0e8a65c9a60067b9fe0f24af96da51d_reentrancy.sol",
+        "vulnerabilities": [
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "0x0c0f90182f3685de19474bb69001eb5b8d038276_suicideContract.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control,denial_of_service"
+            },
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "0x14b22449fb80c9efd00d0ffd9bd6b9aba27ede6e_integerOverflow.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "0x18c210013ea6cbe99b2dacdc9cfcb6e07458f0ca_dosByComplexFallback.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x205dc661ee6946319ebb0698a017bcc20549910f_unhandledException.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol",
+        "vulnerabilities": [
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "0x24c32047b4d7631c39df20021ca03cbb4f5de3a9_affectedByMiners.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x28a359cB732bFb74e77D282ACE88e43db28A5F33_affectedByMiners.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x2a0cf74966a4aa8bcd11d21fd29ba74fc9c17096_affectedByMiners.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x2c167231cF521AAABc8AbE09F4e2bCB728f26C01_affectedByMiners.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x3076abd3c20ed5b60443672a6b6b157566c4d1af_dosByComplexFallback.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x36a1aa11a94c47a796496d0d40d519a9bf38a749_suicideContract.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control,denial_of_service"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "0x39731Cb7727250bc42b7b72055934e8b3eeAc3b4_integerOverflow.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "0x398f6C9e0a6490DA189885283880Be8DF92bAd36_affectedByMiners.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x399ccE5797C2Aa3eA96A72074e0626f92a96c1aD_integerOverflow.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "access_control,tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "access_control,tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x436a5a792261d3d154f5d22879e2565981d03f6b_suicideContract.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control,denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "0x44d7aa3e52df7f3902399fd263337e91ee6d3629_dosByComplexFallback.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x4ba012f6e411a1be55b98e9e62c3a4ceb16ec88b_TOD.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x4f1721ad662351cd63c2fd7259aff9a8bd27a0a8_unhandledException.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x4fd414c5ac6f8a17834d704ab431921ee93a4f2d_TOD.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0x558319820f41c8d934812c4bb370d6c49017dd35_unhandledException.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x5994deac891353c18e2918dfe83f0c9bb18db492_suicideContract.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control,denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "0x5cc00cca0692b9b34af816e5439cdb47d3b63691_integerOverflow.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+        "vulnerabilities": [
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x64b27d97a3f77e4b4d45e1a2f4ee52ba00531431_integerOverflow.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "0x7437c74eec06b7ff9a03f6afd87ab61a72cc8ed0_suicideContract.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "0x76a6b003c39c1eb38b96aaaa1f551e4c6ad3de5c_dosByComplexFallback.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0x9c235ac2c33077a30593a3fd27a0087c687a80a3_dosByComplexFallback.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "bad_randomness,block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "AssetHandler.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "auction.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "BECToken.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "blackjack.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "buggy_3.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "CheesePriceOracle.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "block_state_dependency"
+            },
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "dos_address.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "dos_number.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "dos_simple.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "ERC20.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            },
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "etheraffle.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            },
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "etherpot_lotto.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "block_state_dependency"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "ether_lotto.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency,bad_randomness"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "eth_tx_order_dependence_minimal.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            },
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "FindThisHash.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "guess_the_random_number.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            },
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "Hypervisor.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "IncentiveDistribution.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "incorrect_constructor_name1.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "incorrect_constructor_name2.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "integer_overflow_add.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "integer_overflow_benign_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "integer_overflow_mapping_sym_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "integer_overflow_mul.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "integer_overflow_multitx_multifunc_feasible.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "integer_overflow_multitx_onefunc_feasible.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "Keep3rV2Oracle.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            },
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "LimboDAO.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "list_dos.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "block_state_dependency"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "lottery.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            },
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "lotto.sol",
+        "vulnerabilities": [
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "lottopollo.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness, block_state_dependency"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "lucky_doubler.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "MarginRouter.sol",
+        "vulnerabilities": [
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "multiowned_vulnerable.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control,denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "NFTPairWithOracle.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "odds_and_evens.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "old_blockhash.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "parity_wallet_bug_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "parity_wallet_bug_2.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "phishable.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "proxy.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "random_number_generator.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "reentrancy_insecure.sol",
+        "vulnerabilities": [
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "reentrancy_simple.sol",
+        "vulnerabilities": [
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "roulette.sol",
+        "vulnerabilities": [
+            {
+                "category": "block_state_dependency,bad_randomness"
+            },
+            {
+                "category": "unchecked_low_level_calls"
+            }
+        ]
+    },
+    {
+        "filename": "send_loop.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "simple_suicide.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control,denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "smart_billions.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "reentrancy"
+            },
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "timelock.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "token.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "tokensalechallenge.sol",
+        "vulnerabilities": [
+            {
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "filename": "unprotected0.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "filename": "VaderRouterV2.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "Visor.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            },
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "wallet_02_refund_nosub.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "wallet_03_wrong_constructor.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "wallet_04_confused_sign.sol",
+        "vulnerabilities": [
+            {
+                "category": "access_control"
+            },
+            {
+                "category": "arithmetic"
+            },
+            {
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "filename": "dos_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "dos_2.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "dos_3.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "dos_4.sol",
+        "vulnerabilities": [
+            {
+                "category": "denial_of_service"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_2.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_3.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_4.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_5.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_6.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_7.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_8.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_9.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_10.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_11.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_12.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "price_manipulation_13.sol",
+        "vulnerabilities": [
+            {
+                "category": "price_manipulation"
+            }
+        ]
+    },
+    {
+        "filename": "tod_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_2.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_3.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_findhash.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_Auction.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_bsswap.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_bid.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "tod_bid_2.sol",
+        "vulnerabilities": [
+            {
+                "category": "tx_order_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_1.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_2.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_3.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_4.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_5.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_6.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_7.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "bad_randomness_8.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness, block_state_dependency"
+            }
+        ]
+    },
+    {
+        "filename": "random_token_giveaway.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "bad_lottery.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "filename": "GameOfChance.sol",
+        "vulnerabilities": [
+            {
+                "category": "bad_randomness,access_control"
+            }
+        ]
+    }
+
+]
